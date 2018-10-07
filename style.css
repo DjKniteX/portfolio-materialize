@@ -1,0 +1,46 @@
+body {
+    background-color: #070707;
+    color: white;
+}
+
+#landing{
+    height: 100vh;
+    background-image: url('images/la.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+#mainText{
+    margin-top: 30vh;
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 360px) {
+    
+}
+
+
+/* effects */
+
+.fadeIn {
+    animation: fadein 1.4s;
+  }
+  
+  .hideme
+  {
+      opacity:0;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
