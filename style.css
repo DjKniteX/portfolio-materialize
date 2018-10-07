@@ -20,7 +20,10 @@ body {
 
 /* Mobile Responsive */
 @media screen and (max-width: 360px) {
-    
+    #mainText {
+        margin-top: 40px;
+    }
+
 }
 
 
